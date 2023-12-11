@@ -34,6 +34,7 @@ For example, entering "S chatbot" will open a qutebrowser tab with search result
 
 - [qutebrowser](https://qutebrowser.org/)
 - [dmenu](https://tools.suckless.org/dmenu/)
+- [dmenu-xyw](https://tools.suckless.org/dmenu/patches/xyw/) 
 
 ## Configuration
 
