@@ -26,5 +26,4 @@ selection="$(dmenu -i -p ">" $position -fn "14" -bw "3" -nb "#355535" -sb "#9283
 # Open the selected URL in qutebrowser.
 if [[ -n $selection ]]; then
     qutebrowser "$selection"
-    #echo "$selection"
 fi
