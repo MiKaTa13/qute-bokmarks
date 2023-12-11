@@ -26,9 +26,6 @@ chmod +x qutebookmark.sh
 
 5. Use dmenu to select a bookmarked URL, and the script will open it in qutebrowser.
 
-If you type "S" before your query, the script will perform a web search using qutebrowser for the specified query.
-
-For example, entering "S chatbot" will open a qutebrowser tab with search results for "chatbot."
 
 ## Dependencies
 

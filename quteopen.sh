@@ -21,7 +21,7 @@ position=$(center "$screen_x" "$screen_y" "$win_size")
 
 # Use dmenu to select a bookmark URL.
 selection="$(dmenu -i -p ">" $position -fn "14" -bw "3" -nb "#355535" -sb "#928374" -sf "#020202" -l "9" < "$qute_history" |\
-    tr ' ' "\n" | grep "[^S |^https]")"
+    tr ' ' "\n" | grep "[^https]")"
 
 # Open the selected URL in qutebrowser.
 if [[ -n $selection ]]; then
